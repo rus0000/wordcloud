@@ -1,0 +1,36 @@
+/* postcss-nested */
+.word-cloud-chart {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+  rect {
+    fill: white;
+  }
+
+  text {
+      cursor: pointer;
+      font-family: "Open Sans";
+
+  }
+
+  .active {
+      text-decoration: underline;
+  }
+
+  .grey-fill {
+      fill: #B6B6B4;
+  }
+
+  .green-fill {
+      fill: #00AA00;
+  }
+
+  .red-fill {
+      fill: #FF0000;
+  }
+
+  text:hover {
+    text-decoration: underline;
+  }
+}

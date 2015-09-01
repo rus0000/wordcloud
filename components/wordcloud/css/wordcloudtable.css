@@ -1,0 +1,47 @@
+/* postcss-nested */
+.word-cloud-table {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 238px;
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    background: #f5f5f5;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 5px;
+    word-wrap: break-word;
+  }
+
+  .total {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .stats {
+    text-align: right;
+  }
+
+  td:nth-child(1) {
+    width: 110px;
+  }
+
+  .green-color {
+    color: #00AA00;
+  }
+
+  .red-color {
+    color: #FF0000;
+  }
+}

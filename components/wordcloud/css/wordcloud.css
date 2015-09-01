@@ -1,0 +1,16 @@
+/* postcss-nested */
+.word-cloud {
+      background: #e8e8e8;
+      font-family: 'Open Sans', sans-serif;
+      border: 1px solid #c8c8c8;
+      padding: 5px 10px 10px 10px;
+
+  /*box-sizing: border-box;*/
+
+  .title {
+      display: block;
+      height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+  }
+}
